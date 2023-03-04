@@ -1,0 +1,163 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+
+  header nav li:last-child {
+    margin-right: 0;
+  }
+
+  header nav li.login a {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+.login-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.login-link:hover {
+    background-color: #0056b3;
+}
+
+main {
+    margin-top: 100px;
+}
+
+main h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+main p {
+    margin-bottom: 40px;
+}
+
+.announcements, .features, .testimonial {
+    margin-bottom: 40px;
+}
+
+.announcements h3, .features h3, .testimonial h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.announcements ul, .features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.announcements li, .features li {
+    margin-bottom: 10px;
+}
+
+.testimonial blockquote {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial cite {
+    display: block;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+
+/* Media queries */
+@media (max-width: 767px) {
+    header {
+        padding: 10px;
+    }
+    
+    header h1 {
+        font-size: 24px;
+    }
+    
+    header nav li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .login-link {
+        display: block;
+        margin-top: 10px;
+    }
+    
+    main h2 {
+        font-size: 24px;
+    }
+    
+    .announcements h3, .features h3, .testimonial h3 {
+        font-size: 20px;
+    }
+}

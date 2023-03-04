@@ -131,6 +131,62 @@ main p {
     text-align: right;
 }
 
+.logo-cefet{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    }
+
+/* parte css do login em login.html --------------------------*/
+.login-container {
+    margin-top: 15%;
+    margin-left: 40%;
+    margin-bottom: 13%;
+    width: 400px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #888888;
+}
+
+.form-group {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    border: none;
+    background-color: #F5F5F5;
+    padding: 8px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+button[type="submit"] {
+    background-color: #2196F3;
+    border: none;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #0D47A1;
+}
+/* fim da parte css do login em login.html --------------------------*/
 
 
 /* Media queries */

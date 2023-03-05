@@ -188,6 +188,14 @@ button[type="submit"]:hover {
 }
 /* fim da parte css do login em login.html --------------------------*/
 
+/* parte css do teste em tests.html --------------------------*/
+.pergunta{
+    margin-top: 100px;
+    }
+.enviar-teste{      
+    margin-top: 50px; /*essa margin não está funcionando*/
+}
+/* fim da parte css do teste em tests.html --------------------------*/
 
 /* Media queries */
 @media (max-width: 767px) {
